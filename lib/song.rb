@@ -7,8 +7,5 @@ attr_accessor :name, :artist, :genre
     @genre = genre
   end
 
-  def artist=(artist)
-    self.artist = artist
-  end
 
 end
