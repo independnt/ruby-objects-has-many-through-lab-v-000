@@ -15,8 +15,9 @@ attr_accessor :name, :songs
     self.songs.collect{|a| a.artist}
   end
 
-  def add_song
-
+  def add_song(song)
+    self.songs << song
+    song.genre = self
   end
 
 end
