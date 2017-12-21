@@ -12,7 +12,7 @@ attr_accessor :name, :appointments
   end
 
   def patients
-    self.appointments.collect {|p| p.patients}
+    self.appointments.collect {|p| p.patient}
   end
 
 end
