@@ -11,6 +11,8 @@ attr_accessor :name, :appointments
     appointment.doctor = self
   end
 
-  
+  def patients
+    self.appointments.collect {|p| p.patients}
+  end
 
 end
