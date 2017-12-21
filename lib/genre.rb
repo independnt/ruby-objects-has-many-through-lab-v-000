@@ -14,5 +14,9 @@ attr_accessor :name, :songs
   def artists
     self.songs.collect{|a| a.artist}
   end
-  
+
+  def add_song
+
+  end
+
 end
