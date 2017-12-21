@@ -16,4 +16,8 @@ def songs
   self.songs
 end
 
+def genres
+
+end
+
 end
