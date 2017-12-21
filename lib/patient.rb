@@ -13,7 +13,7 @@ class Patient
   end
 
   def doctors
-    self.appointment{|d| d.doctor}
+    self.appointments{|d| d.doctor}
   end
 
 end
