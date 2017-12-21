@@ -6,6 +6,11 @@ attr_accessor :name, :appointments
     @appointments = []
   end
 
+  def add_appointment(app)
+    self.appointments << app
+    appointment.doctor = self
+  end
 
+  
 
 end
