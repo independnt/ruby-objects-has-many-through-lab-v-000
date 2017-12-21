@@ -17,7 +17,7 @@ def songs
 end
 
 def genres
-
+  self.songs.collect {|s| s.genre}
 end
 
 end
